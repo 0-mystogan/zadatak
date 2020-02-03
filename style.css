@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');*/
+
+html body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(244, 244, 244);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+	width: 40%;
+	height: 80%;
+}
+.output {
+	width: 40%;
+	height: 80%;
+}
+.naslov {
+	margin-bottom: 15px;
+	color: rgb(80, 84, 95);
+	font-weight: 900;
+	font-size: x-large;
+	width: 50%;
+	border-bottom: solid 2px rgb(80, 84, 95);
+}
+
+.label {
+	margin-top: 20px;
+	color: rgb(80, 84, 95);
+	font-size: large;
+}
+
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 0;
+	outline: 0;
+	width: 70%;
+	height: 15%;
+	border-radius: 15px;
+	color: rgb(122, 171, 228);
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dugme {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 15%;
+	background-color: rgb(122, 171, 228);
+	border-radius: 15px;
+	cursor: pointer;
+}
+.dugme > div {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+}
+
+.kocka {
+	margin: 5px;
+	width: 20%;
+	height: 20%;
+	background-color: #ffffff;
+	color: rgb(80, 84, 95);
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 15px;
+}
+.prva {
+	background-color: rgb(80, 84, 95);
+	color: #ffffff;
+}
+
+.red {
+	display: flex;
+	flex-direction: row;
+}
+
+.upozorenje {
+	display: block;
+	width: 100%;
+	color: #ffffff;
+	background-color: rgb(80, 84, 95);
+	height: 10%;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 15px;
+	opacity: 0.5;
+}
